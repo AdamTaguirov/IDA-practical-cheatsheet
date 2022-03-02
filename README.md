@@ -60,6 +60,8 @@ ida_funcs.add_func(ea) # i.e ea = 0x424242
 
 ### Decode instruction at specific location
 
+Full supported instructions list here: [IDA Python instructions](https://raw.githubusercontent.com/AdamTaguirov/IDA-practical-cheatsheet/main/IDA_Python_supported_instructions.txt)
+
 ```python
 import idautils
 import ida_allins
