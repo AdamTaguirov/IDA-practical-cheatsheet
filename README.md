@@ -87,3 +87,18 @@ import ida_bytes
 
 ida_bytes.set_cmt(ea, "Comment", 0)
 ```
+
+### Get cross references
+
+```python
+import idautils
+
+refs_to = idautils.XrefsTo(ea)
+refs_from = idautils.XrefsFrom(ea)
+
+for ref in refs_to:
+  print(ref.frm) # From address
+  
+for ref in refs_from:
+  print(ref.to) # To address
+```
