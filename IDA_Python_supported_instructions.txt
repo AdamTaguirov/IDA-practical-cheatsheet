@@ -1,6 +1,3 @@
-from
-import
-SWIG_PYTHON_LEGACY_BOOL
 NN_null
 NN_aaa
 NN_aad
