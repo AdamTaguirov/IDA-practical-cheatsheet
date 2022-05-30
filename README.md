@@ -50,6 +50,14 @@ for func_ea in idautils.Functions(): # Iterate over all functions
     pass # Do stuff
 ```
 
+### Create instruction at specific location
+
+```python
+import ida_ua
+
+ida_ua.create_insn(ea) # i.e ea = 0x424242
+```
+
 ### Create function at specific location
 
 ```python
